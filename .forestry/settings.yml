@@ -16,6 +16,13 @@ sections:
   match: "**/*"
   templates:
   - blog
+- type: directory
+  path: content/portfolio
+  label: Portfolio
+  create: all
+  match: "**/*"
+  templates:
+  - blog
 - type: document
   path: content/data/authors.yaml
   label: Authors List
