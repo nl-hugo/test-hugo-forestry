@@ -23,13 +23,17 @@ sections:
   match: "**/*"
   templates:
   - blog
+- type: directory
+  path: content/service
+  label: Service
+  create: all
+  match: "**/*"
 - type: document
   path: content/data/authors.yaml
   label: Authors List
 - type: document
   path: content/data/feature.yml
   label: Feature
-  match: "**/*"
 - type: document
   path: content/data/contact.yml
   label: Contact details
