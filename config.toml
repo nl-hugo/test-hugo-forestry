@@ -1,4 +1,4 @@
 baseURL = "/"
 languageCode = "nl-nl"
-theme = "meghna"
+theme = "timer"
 title = "Hugo DA test"

@@ -1,3 +1,6 @@
 [submodule "themes/meghna"]
 	path = themes/meghna
 	url = https://github.com/themefisher/meghna-hugo
+[submodule "themes/timer"]
+	path = themes/timer
+	url = https://github.com/themefisher/timer-hugo.git
