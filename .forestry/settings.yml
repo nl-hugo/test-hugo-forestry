@@ -27,7 +27,7 @@ sections:
   path: content/data/authors.yaml
   label: Authors List
 - type: document
-  path: contact/data/contact.yml
+  path: content/data/contact.yml
   label: Contact details
 - type: heading
   label: Config
