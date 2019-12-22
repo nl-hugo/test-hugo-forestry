@@ -32,10 +32,10 @@ sections:
   path: content/data/authors.yaml
   label: Authors List
 - type: document
-  path: content/data/feature.yml
+  path: data/feature.yml
   label: Feature
 - type: document
-  path: content/data/contact.yml
+  path: data/contact.yml
   label: Contact details
 - type: heading
   label: Config
