@@ -5,6 +5,26 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Data lists
+- type: document
+  path: data/feature.yml
+  label: Feature list
+- type: document
+  path: data/service.yml
+  label: Service list
+  match: "**/*"
+- type: document
+  path: data/client.yml
+  label: Client list
+  match: "**/*"
+- type: document
+  path: data/gallery.yml
+  label: Gallery list
+  match: "**/*"
+- type: document
+  path: data/contact.yml
+  label: Contact
+- type: heading
   label: Content
 - type: document
   path: content/about/info.md
@@ -31,12 +51,6 @@ sections:
 - type: document
   path: content/data/authors.yaml
   label: Authors List
-- type: document
-  path: data/feature.yml
-  label: Feature
-- type: document
-  path: data/contact.yml
-  label: Contact
 - type: heading
   label: Config
 - type: document
