@@ -27,9 +27,8 @@ sections:
   path: content/data/authors.yaml
   label: Authors List
 - type: document
-  path: data/contact.yml
+  path: contact/data/contact.yml
   label: Contact details
-  match: "**/*"
 - type: heading
   label: Config
 - type: document
