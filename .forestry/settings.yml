@@ -21,7 +21,6 @@ sections:
 - type: document
   path: data/gallery.yml
   label: Gallery list
-  match: "**/*"
 - type: document
   path: data/service.yml
   label: Service list
