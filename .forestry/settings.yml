@@ -36,7 +36,7 @@ sections:
   label: Feature
 - type: document
   path: data/contact.yml
-  label: Contact details
+  label: Contact
 - type: heading
   label: Config
 - type: document
