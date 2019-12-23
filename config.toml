@@ -91,3 +91,11 @@ title = "Hugo DA test"
         [[params.footer.socialIcon]]
             icon = "ion-social-github"
             url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-skype"
+            url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-whatsapp"
+            url = "#"
