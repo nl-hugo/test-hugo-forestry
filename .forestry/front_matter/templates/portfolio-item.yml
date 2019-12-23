@@ -1,0 +1,39 @@
+---
+label: Portfolio Item
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: type
+  label: type
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: caption
+  label: caption
+- type: file
+  name: image
+  label: image
+- type: list
+  name: category
+  label: category
+- type: text
+  name: liveLink
+  label: liveLink
+- type: text
+  name: client
+  label: client
+- type: text
+  name: submitDate
+  label: submitDate
+- type: text
+  name: location
+  label: location
