@@ -17,12 +17,30 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: LinkedIn
+    description: Enter LinkedIn url
   - name: github_handle
     type: text
     config:
       required: false
     label: Github Handle
     description: Enter github handle here
+  - name: skype
+    type: text
+    config:
+      required: false
+    label: Skype
+    description: Enter Skype handle
+  - name: whatsapp
+    type: text
+    config:
+      required: false
+    label: Whatsapp
+    description: Whatsapp contact details
   - name: email
     type: text
     config:
