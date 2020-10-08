@@ -31,42 +31,44 @@ title = "Hugo DA test"
 [params]
     home = "Home"
     logo = "images/logo.png"
-    dateFormat = "6 January 2006"
+    dateFormat = "6-1-2006"
     # Meta data
-    description = "Airspace Hugo theme"
-    author = "Themefisher"
+    description = "HUGO. Analytics is een data analytics en consultancy bedrijf"
+    author = "HUGO."
     # Google Analitycs
     googleAnalitycsID = "Your ID"
 
     # Banner Section
     [params.banner]
         enable  = true
-        bgImage = "images/ruslan-bardash-g83y6do219w-unsplash.jpg"
-        heading = "HI, MY NAME IS HUGO & I AM A"
-        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        bgImage = "images/lake-nogwat.jpg"
+        heading = "HI, Ik ben HUGO. & mijn passie is data"
+        description = "Met meer dan 15 jaar ervaring in data gedreven projecten, in rollen als data analist, data specialist en data visualisatie engineer. Maak kennis met mijn werk."
         btn     = true
-        btnText = "Download More"
-        btnURL  = "https://themefisher.com/"
+        btnText = "Download CV"
+        btnURL  = "/static/cv_nl.pdf"
         [[params.banner.flipText]]
-            title   = "DESIGNER"
+            title   = "ANALYSEREN"
         [[params.banner.flipText]]
-            title   = "DEVELOPER"
+            title   = "MODELLEREN"
         [[params.banner.flipText]]
-            title   = "FATHER"
+            title   = "VISUALISEREN"
+        [[params.banner.flipText]]
+            title   = "INTERPRETEREN"
 
     # Homepage About Section
     [params.about]
         enable  = true
         title   = "ABOUT ME"
-        content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+        content = "Ik ben Hugo. Ruim 15 jaar geleden dook ik in de wereld van data. Eerst als analist en ontwerper in de ongestructureerde data (je weet wel, documenten) en de laatste jaren richt ik mij op data in meer gestructureerde vorm (databases en tabellen). <br><br> Heerlijk vind ik het om een berg ogenschijnlijk onsamenhangende gegevens door te spitten om er vervolgens inzichten uit te kunnen halen. De resultaten zijn niet altijd even pretty, maar zorgen er wél voor dat het goede gesprek op gang komt. `Waarom zien we deze trend?` en `Wat zijn eigenlijk de effecten van de aanschaf van deze machine?` <br><br> Het samenbrengen van harde feiten uit de data en de ervaring van medewerkers op de werkvloer, dát is de meerwaarde van HUGO Analytics."
         image   = "images/about/about.jpg"
 
     # Call to Action
     [params.cta]
         enable  = true
-        title   = "SO WHAT YOU THINK ?"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-        btnText = "Contact with me"
+        title   = "Huur mij in als freelancer"
+        content = "Neem voor mijn beschikbaarheid contact op via het contactformulier"
+        btnText = "Contact"
         btnURL  = "/contact"
 
     # Portfolio Section On Homepage

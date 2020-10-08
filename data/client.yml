@@ -1,7 +1,13 @@
 enable  : true
-title   : OUR HAPPY CLINETS
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.
+title   : OUR HAPPY CLIENTS
+subtitle: Wij werken voor.
 clientsLogo:
+  - image : images/clients/incluzio.png
+    URL : "#"
+  - image : images/clients/buurtteams-utrecht.png
+    URL : "#"
+  - image : images/clients/radar-uitvoering.png
+    URL : "#"
   - image : images/clients/logo-1.jpg
   - image : images/clients/logo-2.jpg
   - image : images/clients/logo-3.jpg

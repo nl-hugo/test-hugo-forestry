@@ -1,0 +1,13 @@
+  {{ if .Site.Data.client.enable }}
+  <!-- client logo slider -->
+  <section class="section pb-0">
+    <div class="container">
+        <div class="client-logo-slider d-flex align-items-center">
+          {{ range .Site.Data.client.clientsLogo }}
+          <a href="{{ .URL }}" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="{{.image | absURL}}" alt="client-logo"></a>
+          {{ end }}
+      </div>
+  </div>
+</section>
+<!-- /client logo slider -->
+{{ end }}

@@ -1,0 +1,45 @@
+enable: true
+title: Werkervaring
+subtitle: "Een korte impressie van mijn werkervaring. <br> Klik op de link 
+hieronder om mijn volledige CV te downloaden."
+
+item: 
+  - logo : "images/clients/incluzio.png"
+    icon  : ion-ios-briefcase-outline
+    title : "Freelance data analist"
+    company : "HUGO. Analytics"
+    description : "Freelance data analist, beschikbaar voor data-intense projecten."
+    duration : "2019 - heden"
+    
+  - logo : "images/experience/icon-2.png"
+    icon  : ion-ios-briefcase-outline
+    title : "Data specialist"
+    company : "ValueCare"
+    description : "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+    duration : "2011 - 2018"
+    
+  - logo : "images/experience/icon-1.png"
+    icon  : ion-ios-briefcase-outline
+    title : "Consultant"
+    company : "Logica"
+    description : "Implementatie consultant voor diverse document management en 
+    workflow projecten bij banken en verzekeraars."
+    duration : "2006 - 2011"
+
+  - logo : "images/experience/icon-1.png"
+    icon  : ion-ios-briefcase-outline
+    title : "Consultant"
+    company : "Unisys"
+    description : "Implementatie consultant voor diverse document management en 
+    workflow projecten bij overheidsinstanties."
+    duration : "2004 - 2006"
+
+  - logo : "images/experience/icon-1.png"
+    icon  : ion-ios-book-outline
+    title : "Master Computer Science"
+    company : "Universiteit Twente"
+    description : "Gespecialiseerd in Distributed and Embedded Systems. 
+    Afstudeerscriptie over peer-to-peer technologie in printer netwerken (Océ, 
+    Venlo) en als stageopdracht de ontwikkeling van een e-learning module voor 
+    machines in de halfgeleider industrie (ASM America, Phoenix AZ)."
+    duration : "1998 - 2004"

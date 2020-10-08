@@ -1,0 +1,32 @@
+{{ if .Site.Data.experience.enable }}
+<!-- experience -->
+<section id="experience">
+    <div class="container">
+        <div class="section-heading">
+            {{ with .Site.Data.experience.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+            {{ with .Site.Data.experience.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . | safeHTML }}</p>{{ end }}
+            {{ if .Site.Params.banner.btn }}
+                <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green hvr-bounce-to-right" data-wow-delay=".9s"
+                href="{{ .Site.Params.banner.btnURL }}" target="_blank">{{ .Site.Params.banner.btnText }}</a>
+            {{ end }}
+        </div>
+        <div class="row">
+            {{ range $index, $elemrnt := .Site.Data.experience.item }}
+            <div class="col-md-6">
+                {{ $delay := mul (add $index 1) 300 }}
+                <div class="resume-item mb-4 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                    <span class="icon">
+                        {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+                    </span>
+                    {{ with .duration }}<span class="date">{{ . }}</span>{{ end }}
+                    {{ with .title }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .company }}<h5>{{ . }}</h5>{{ end }}
+                    {{ with .description }}<p class="mt4">{{ . }}</p>{{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- ./experience -->
+{{ end }}
