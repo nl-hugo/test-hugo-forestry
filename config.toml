@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "nl-nl"
-theme = "timer"
+theme = "radity"
 title = "Hugo DA test"
 
 # Site Menus
