@@ -72,8 +72,6 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.61.0
   preview_output_directory: public
-  install_dependencies_command: ' git submodule add https://github.com/themefisher/timer-hugo.git
-    themes/timer echo ''theme = "timer"'' >> config.toml'
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
